@@ -41,25 +41,20 @@ const ContactSection = () => {
   const socialLinks = [
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/johndoe",
+      url: "https://www.linkedin.com/in/karthikeyan-a-281310296",
       icon: "💼",
       color: "#0077B5"
     },
     {
       name: "GitHub",
-      url: "https://github.com/johndoe",
+      url: "https://github.com/akarthikryan",
       icon: "🐙",
       color: "#181717"
     },
-    {
-      name: "Twitter",
-      url: "https://twitter.com/johndoe",
-      icon: "🐦",
-      color: "#1DA1F2"
-    },
+
     {
       name: "Email",
-      url: "mailto:john.doe@example.com",
+      url: "karthikeyanprof2001@gmail.com",
       icon: "📧",
       color: "#EA4335"
     }
@@ -196,7 +191,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Email</p>
-                    <p className="text-white font-medium">john.doe@example.com</p>
+                    <p className="text-white font-medium">karthikeyanprof2001@gmail.com</p>
                   </div>
                 </div>
                 
@@ -206,7 +201,7 @@ const ContactSection = () => {
                   </div>
                   <div>
                     <p className="text-gray-400 text-sm">Location</p>
-                    <p className="text-white font-medium">San Francisco, CA</p>
+                    <p className="text-white font-medium">Chennai</p>
                   </div>
                 </div>
                 

@@ -11,57 +11,30 @@ const CodingProfilesSection = () => {
   const profiles = [
     {
       platform: "LeetCode",
-      username: "johndoe_dev",
+      username: "Karthikeyan_VR46",
       stats: "2000+ problems solved",
       rank: "Top 5%",
-      link: "https://leetcode.com/johndoe_dev",
+      link: "https://leetcode.com/u/karthi_VR46/",
       color: "#FFA116",
       icon: "🧩"
     },
     {
       platform: "GitHub",
-      username: "johndoe",
+      username: "akarthikryan",
       stats: "500+ contributions",
       rank: "100+ repositories",
-      link: "https://github.com/johndoe",
+      link: "https://github.com/akarthikryan",
       color: "#181717",
       icon: "🐙"
     },
     {
-      platform: "Codeforces",
-      username: "johndoe_cf",
-      stats: "1800+ rating",
-      rank: "Expert",
-      link: "https://codeforces.com/profile/johndoe_cf",
-      color: "#1F8ACB",
-      icon: "⚔️"
-    },
-    {
       platform: "HackerRank",
-      username: "johndoe_hr",
+      username: "akarthikeyan9876",
       stats: "5-star Python",
       rank: "Gold badge",
-      link: "https://hackerrank.com/johndoe_hr",
+      link: "https://www.hackerrank.com/profile/akarthikeyan9876",
       color: "#00EA64",
       icon: "🏆"
-    },
-    {
-      platform: "CodeChef",
-      username: "johndoe_cc",
-      stats: "1900+ rating",
-      rank: "4-star",
-      link: "https://codechef.com/users/johndoe_cc",
-      color: "#5B4638",
-      icon: "👨‍🍳"
-    },
-    {
-      platform: "AtCoder",
-      username: "johndoe_ac",
-      stats: "1600+ rating",
-      rank: "Blue",
-      link: "https://atcoder.jp/users/johndoe_ac",
-      color: "#3F7CAC",
-      icon: "🎯"
     }
   ];
 

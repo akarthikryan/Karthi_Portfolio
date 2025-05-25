@@ -54,7 +54,7 @@ const HeroSection = () => {
             className="text-5xl md:text-7xl font-bold mb-6"
           >
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent">
-              John Doe
+              Karthikeyan A
             </span>
           </motion.h1>
 
