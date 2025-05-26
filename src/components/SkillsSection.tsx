@@ -14,9 +14,12 @@ const SkillsSection = () => {
       skills: [
         { name: "React", level: 95, color: "#61DAFB" },
         { name: "TypeScript", level: 90, color: "#3178C6" },
+        { name: "JavaScript", level: 95, color: "#F7DF1E" },
+        { name: "HTML/CSS", level: 95, color: "#F1C40F" },
         { name: "Next.js", level: 88, color: "#000000" },
         { name: "Vue.js", level: 85, color: "#4FC08D" },
         { name: "Tailwind CSS", level: 92, color: "#06B6D4" },
+        { name: "Bootstrap", level: 85, color: "#7952B3" },
       ]
     },
     {
