@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 5c91000b3cbb2f92cad237bf650cb0d664baa669
+import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useState } from 'react';
@@ -90,8 +87,7 @@ const ContactSection = () => {
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-<<<<<<< HEAD
-=======
+
           {/* Contact Form */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -179,7 +175,7 @@ const ContactSection = () => {
             </form>
           </motion.div>
 
->>>>>>> 5c91000b3cbb2f92cad237bf650cb0d664baa669
+
           {/* Contact Info & Social Links */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
