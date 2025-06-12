@@ -1,4 +1,3 @@
-
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
@@ -10,8 +9,8 @@ const AboutSection = () => {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'John_Doe_Resume.pdf';
+    link.href = '/karthikeyan_A_28.pdf'; // Make sure this file is in your public directory
+    link.download = 'karthikeyan_A_28.pdf';
     link.click();
   };
 
@@ -44,13 +43,13 @@ const AboutSection = () => {
           >
             <div className="space-y-6 text-left">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I'm a passionate full-stack developer,building scalable web applications and solving complex problems. I love 
-                working with modern technologies and creating user-centric solutions.
+                I'm a passionate full-stack developer, building scalable web applications and solving complex problems.
+                I love working with modern technologies and creating user-centric solutions.
               </p>
-              
+
               <p className="text-lg text-gray-300 leading-relaxed">
-                My expertise spans across React, Node.js, Python, and cloud technologies. 
-                I'm always eager to learn new technologies and take on challenging projects 
+                My expertise spans across React, Node.js, Python, and cloud technologies.
+                I'm always eager to learn new technologies and take on challenging projects
                 that push the boundaries of what's possible.
               </p>
 

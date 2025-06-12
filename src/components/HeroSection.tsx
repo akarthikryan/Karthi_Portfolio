@@ -6,10 +6,9 @@ import FloatingIcons from './FloatingIcons';
 
 const HeroSection = () => {
   const downloadResume = () => {
-    // Create a dummy PDF download link
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
-    link.download = 'John_Doe_Resume.pdf';
+    link.href = '/karthikeyan_A_28.pdf'; // Make sure this file is in your public directory
+    link.download = 'karthikeyan_A_28.pdf';
     link.click();
   };
 
