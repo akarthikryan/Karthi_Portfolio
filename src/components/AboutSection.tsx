@@ -8,11 +8,11 @@ const AboutSection = () => {
   });
 
   const downloadResume = () => {
-    const link = document.createElement('a');
-    link.href = '/karthikeyan_A_28.pdf'; // Make sure this file is in your public directory
-    link.download = 'karthikeyan_A_28.pdf';
-    link.click();
-  };
+  const link = document.createElement('a');
+  link.href = '/karthikeyan_A_28.pdf'; // now this will work
+  link.download = 'Karthikeyan_Portfolio.pdf'; // what the user sees
+  link.click();
+};
 
   return (
     <section id="about" className="py-20 relative">
