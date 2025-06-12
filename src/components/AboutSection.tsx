@@ -44,8 +44,7 @@ const AboutSection = () => {
           >
             <div className="space-y-6 text-left">
               <p className="text-lg text-gray-300 leading-relaxed">
-                I'm a passionate full-stack developer with over 5 years of experience 
-                building scalable web applications and solving complex problems. I love 
+                I'm a passionate full-stack developer,building scalable web applications and solving complex problems. I love 
                 working with modern technologies and creating user-centric solutions.
               </p>
               
@@ -58,7 +57,7 @@ const AboutSection = () => {
               <div className="space-y-3">
                 <div className="flex items-center space-x-3">
                   <span className="w-2 h-2 bg-purple-400 rounded-full"></span>
-                  <span className="text-gray-300">5+ years of professional experience</span>
+                  <span className="text-gray-300">2+ years of professional experience</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
