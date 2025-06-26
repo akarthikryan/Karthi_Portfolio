@@ -13,27 +13,27 @@ const ProjectsSection = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Organic E-Commerce Platform",
       description: "Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include payment integration, admin dashboard, and real-time inventory management.",
-      techStack: ["React", "Node.js", "MongoDB", "Stripe"],
+      techStack: ["React", "Node.js", "MongoDB", "Bootstrap"],
       liveDemo: "https://example.com",
-      github: "https://github.com/example",
+      github: "https://github.com/akarthikryan/Organic-Ecommerce",
       color: "#8B5CF6"
     },
     {
-      title: "AI Task Manager",
-      description: "Intelligent task management app with AI-powered prioritization and natural language processing for task creation and scheduling.",
-      techStack: ["Next.js", "Python", "OpenAI", "PostgreSQL"],
+      title: "Bike Gear Sales",
+      description: "Full-stack ecommerce solution with Node.js, Express, and MongoDB. Features include payment integration, admin dashboard, and real-time inventory management.",
+      techStack: ["Node.js", "Express.js","MongoDB", "Javascript"],
       liveDemo: "https://example.com",
-      github: "https://github.com/example",
+      github: "https://github.com/akarthikryan/BIKEGEARS",
       color: "#06B6D4"
     },
     {
-      title: "Real-time Chat App",
-      description: "WebSocket-based chat application with end-to-end encryption, file sharing, and real-time notifications across multiple platforms.",
-      techStack: ["React", "Socket.io", "Express", "Redis"],
-      liveDemo: "https://example.com",
-      github: "https://github.com/example",
+      title: "Spotify-Clone",
+      description: "Developed a Spotify-Clone with React, TailwindCSS, Shadecn UI . Features include user authentication, playlist creation, and song streaming.",
+      techStack: ["React", "TailwindCSS", "Shadecn UI"],
+      liveDemo: "https://spotify-clone-sm6o.vercel.app/",
+      github: "https://github.com/akarthikryan/SpotifyClone",
       color: "#10B981"
     },
     {

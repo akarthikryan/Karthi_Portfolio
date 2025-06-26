@@ -43,7 +43,6 @@ const SkillsSection = () => {
         { name: "Firebase", level: 82, color: "#FFCA28" },
         { name: "Supabase", level: 80, color: "#3ECF8E" },
         { name: "Vercel", level: 85, color: "#000000" },
-        { name: "kafka", level: 75, color: "#231F20" },
         { name: "RabbitMQ", level: 75, color: "#FF6600" },
         { name: "Kubernetes", level: 70, color: "#326CE5" },
       ]

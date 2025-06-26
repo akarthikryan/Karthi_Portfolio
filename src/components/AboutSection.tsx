@@ -9,8 +9,8 @@ const AboutSection = () => {
 
   const downloadResume = () => {
   const link = document.createElement('a');
-  link.href = '/karthikeyan_A_28.pdf'; // now this will work
-  link.download = 'Karthikeyan_Portfolio.pdf'; // what the user sees
+  link.href = '/Karthikeyan_2_leaf.pdf'; // now this will work
+  link.download = 'Karthikeyan_2_leaf.pdf'; // what the user sees
   link.click();
 };
 
