@@ -28,7 +28,7 @@ const SkillsSection = () => {
         { name: "Node.js", level: 93, color: "#339933" },
         { name: "Python", level: 88, color: "#3776AB" },
         { name: "Express.js", level: 90, color: "#000000" },
-        { name: "FastAPI", level: 85, color: "#009688" },
+        { name: "Django", level: 85, color: "#009688" },
         { name: "GraphQL", level: 82, color: "#E10098" },
       ]
     },
