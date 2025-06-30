@@ -60,7 +60,7 @@ const AboutSection = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
-                  <span className="text-gray-300">50+ projects completed</span>
+                  <span className="text-gray-300">10+ projects completed</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <span className="w-2 h-2 bg-pink-400 rounded-full"></span>
@@ -77,20 +77,23 @@ const AboutSection = () => {
                 Download Resume
               </motion.button>
             </div>
-
             <motion.div
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={inView ? { opacity: 1, scale: 1 } : {}}
-              transition={{ duration: 0.8, delay: 0.6 }}
-              className="relative"
-            >
-              <div className="w-80 h-80 mx-auto relative">
-                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/30 to-cyan-500/30 rounded-full blur-2xl"></div>
-                <div className="relative w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 rounded-full border border-purple-500/30 flex items-center justify-center">
-                  <div className="text-6xl">👨‍💻</div>
+                initial={{ opacity: 0, scale: 0.8 }}
+                animate={inView ? { opacity: 1, scale: 1 } : {}}
+                transition={{ duration: 0.8, delay: 0.6 }}
+                className="relative"
+              >
+              <div className="w-80 h-80 mx-auto relative rounded-full p-2 bg-gradient-to-r from-purple-500 via-pink-500 to-cyan-500">
+                <div className="relative w-full h-full rounded-full overflow-hidden bg-gray-900">
+                  <img
+                    src="/karthi pic2.jpg"
+                    alt="Karthikeyan"
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
               </div>
             </motion.div>
+
           </motion.div>
         </motion.div>
       </div>

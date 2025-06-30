@@ -89,13 +89,13 @@ const ContactSection = () => {
                 </div>
 
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center">
+                  {/* <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center">
                     🕒
-                  </div>
-                  <div>
+                  </div> */}
+                  {/* <div>
                     <p className="text-gray-400 text-sm">Response Time</p>
                     <p className="text-white font-medium">Within 24 hours</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
