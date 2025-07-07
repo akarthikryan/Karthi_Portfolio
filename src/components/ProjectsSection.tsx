@@ -45,11 +45,11 @@ const ProjectsSection = () => {
       color: "#F59E0B"
     },
     {
-      title: "Mobile Fitness Tracker",
+      title: "Fitness Tracker",
       description: "Cross-platform mobile app for fitness tracking with workout plans, progress analytics, and social features.",
       techStack: ["React Native", "Firebase", "TensorFlow", "Redux"],
-      liveDemo: "https://example.com",
-      github: "https://github.com/example",
+      liveDemo: "https://fit-track-nine-ashen.vercel.app/login",
+      github: "https://github.com/akarthikryan/Fit-Track",
       color: "#EF4444"
     },
     {
